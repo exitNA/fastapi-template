@@ -50,6 +50,7 @@ async def custom_swagger_ui_html() -> HTMLResponse:
     <elements-api
       apiDescriptionUrl="{app.openapi_url}"
       router="hash"
+      logo="/static/elements/activity.svg"
     />
 
   </body>
